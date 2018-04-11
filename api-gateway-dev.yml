@@ -4,7 +4,7 @@ zuul:
     # 定义的路由的规则的名字
     p:
       # 自定义的地址
-      path: /5/**
+      path: /9/**
       # 服务的 id
       serviceId: product
 
