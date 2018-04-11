@@ -22,7 +22,7 @@ spring:
     port: 5672
     username: guest
     password: guest
-env: abc
+env: 123
 
 # 修改获取服务的方式, 默认是轮询
 # 当前设置的方式为 随机
