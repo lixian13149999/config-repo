@@ -1,0 +1,26 @@
+#自定义路由地址
+zuul:
+  routes:
+    # 定义的路由的规则的名字
+    p:
+      # 自定义的地址
+      path: /p/**
+      # 服务的 id
+      serviceId: product
+
+      # 敏感头信息, 默认是不允许 cookie 传递的, 此处可以把它设置为空, 用来取消限制
+      sensitiveHeaders:
+
+#      stripPrefix: false
+
+#    # 简介写法
+#    product: /myProduct/**
+
+  # 禁止某些路由
+  ignored-patterns:
+    - /product/product/list
+
+# 查看所有的路由, 在 2.0 的时候已经废弃
+#management:
+#  security:
+#    enabled: false
