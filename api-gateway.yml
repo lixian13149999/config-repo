@@ -1,3 +1,12 @@
+spring:
+  application:
+    name: api-gateway
+  rabbitmq:
+    host: 47.100.108.8
+    port: 5672
+    username: guest
+    password: guest
+
 #自定义路由地址
 zuul:
   routes:
@@ -24,10 +33,3 @@ zuul:
 #management:
 #  security:
 #    enabled: false
-
-spring:
-  rabbitmq:
-    host: 47.100.108.8
-    port: 5672
-    username: guest
-    password: guest
