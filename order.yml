@@ -18,7 +18,7 @@ spring:
     port: 6379
 
   rabbitmq:
-    host: http://47.100.108.8
+    host: 47.100.108.8
     port: 5672
     username: guest
     password: guest
